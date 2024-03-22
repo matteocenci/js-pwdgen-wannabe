@@ -20,3 +20,13 @@ console.log(finalTest);
 
 // Scrivi documento in pagina
 document.getElementById("final").innerHTML = finalTest;
+
+// Scrivi un numero a caso
+let x = Math.floor(Math.random() * 99);
+console.log(x);
+
+// Scrivi documento in pagina + un numero a caso
+const finalTestPlus = userName + userSurname + favColor + x;
+document.getElementById("finalplus").innerHTML = finalTestPlus;
+
+
